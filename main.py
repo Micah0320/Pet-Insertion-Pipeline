@@ -46,7 +46,8 @@ conn.close()
 
 print("Done with Names")
 
-conn = pymysql.connect(host='PurrfectMatch.mysql.pythonanywhere-services.com', user='PurrfectMatch', passwd='55055245MZ', db='PurrfectMatch$zdummy')
+#Password Censored
+conn = pymysql.connect(host='PurrfectMatch.mysql.pythonanywhere-services.com', user='PurrfectMatch', passwd='**********', db='PurrfectMatch$zdummy')
 cursor = conn.cursor()
 f = open(filename, 'r')
 f.readline() # ignore first line
